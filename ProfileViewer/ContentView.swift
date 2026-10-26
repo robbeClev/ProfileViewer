@@ -14,7 +14,7 @@ struct ContentView: View {
             
             ScrollView(.horizontal, showsIndicators: false)
             {
-                HStack(spacing: 20) {
+                HStack(spacing: 10) {
                     ForEach(profielen){
                         profile in ProfileView(profile: profile)
                     }
